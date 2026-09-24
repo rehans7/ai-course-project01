@@ -15,3 +15,4 @@ with open("digital_behaviour.csv", "r",encoding="utf-8") as file:
         if int(i)>avg:
             cnt+=1
     print(f'Usage last 7 Days : {minutes}\nAverage :{avg}\nMaximum Value :{maxi}\nMinimum Value :{mini}\nCount greater than Average :{cnt}')
+

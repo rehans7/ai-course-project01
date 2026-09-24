@@ -12,4 +12,19 @@ studyMinutes=studyMinutes[:7]
 
 instaArray=np.array(instaMinutes)
 studyArray=np.array(studyMinutes)
+total= instaArray.sum()
+average=instaArray.mean()
+maxi=instaArray.max()
+mini=instaArray.min()
+
+instaArray[0]
+instaArray[-1]#vector
+instaArray[:3]#slicing
+instaArray[-2:]
+instaArray[1:4]
+
+diff=instaArray-studyArray#
+hours=instaArray/60#dividesEveryElement
+print(diff)
+
 
