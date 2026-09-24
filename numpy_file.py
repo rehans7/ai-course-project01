@@ -23,8 +23,8 @@ instaArray[:3]#slicing
 instaArray[-2:]
 instaArray[1:4]
 
-diff=instaArray-studyArray#
+diff=instaArray-studyArray#subtracts each element of insta array from study array
 hours=instaArray/60#dividesEveryElement
-print(diff)
 
+greater_than_100=instaArray>100
 
