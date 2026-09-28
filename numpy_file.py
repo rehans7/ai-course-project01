@@ -17,14 +17,26 @@ average=instaArray.mean()
 maxi=instaArray.max()
 mini=instaArray.min()
 
-instaArray[0]
-instaArray[-1]#vector
-instaArray[:3]#slicing
-instaArray[-2:]
-instaArray[1:4]
+a=instaArray[0]
+b=instaArray[-1]#vector
+c=instaArray[:3]#slicing
+d=instaArray[-2:]
+e=instaArray[1:4]
 
 diff=instaArray-studyArray#subtracts each element of insta array from study array
+
 hours=instaArray/60#dividesEveryElement
 
-greater_than_100=instaArray>100
+greater_than_100=instaArray>100#returns bool array that has true where condition meets
+
+greaterArraythan100=instaArray[instaArray>100]#gives array of only values >100
+
+greaterArraythanAvg=instaArray[instaArray>average]#gives array of only values >avg
+
+countmorethan100=(instaArray>100).sum()#s true means one add 1 where ever condition is true
+
+print(f'Difference between Instagram & study Time : {diff}\nInstagram time in hours :{hours}\nValues >Average :{greaterArraythanAvg}')
+
+
+
 
